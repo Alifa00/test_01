@@ -23,7 +23,7 @@ int main()
         break;
     }
     
-    for (k = 0; c < 9 ; c++)
+    for (c = 0; c < 9 ; c++)
         if (num[c] > num[c+1])
         {
             cout << "The input sequence must be non-decreasing.";
@@ -35,7 +35,7 @@ int main()
         for (d = c + 1; d <10; d++)
         {
             b = num[c]+num[d];
-            if(s == a)
+            if(b == a)
             {
                 cout << num[c] << ' '<< num[d];
                 return 0;
